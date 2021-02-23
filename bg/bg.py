@@ -4,10 +4,11 @@ import shutil
 import os
 
 # 文件源路径
-src_path = "C:/Users/ispon/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/"
+src_path = 'C:/Users/ispon/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'
 
 # 文件目标路径
-target_path = "C:/Users/ispon/OneDrive/Pictures/latest/"
+target_path = 'C:/Users/ispon/OneDrive/Pictures/latest/'
 
 for file in os.listdir(src_path):
-    shutil.copyfile(src_path + file, target_path + file + ".png")
+    print('==> ' + file + '.png')
+    shutil.copyfile(src_path + file, target_path + file + '.png')
