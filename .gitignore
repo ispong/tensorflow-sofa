@@ -1,3 +1,15 @@
+##
+# idea
+##
+.idea
+
+##
+# pyinstaller 打包文件过滤
+##
+**/build/**
+**/dist/**
+*.spec
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
