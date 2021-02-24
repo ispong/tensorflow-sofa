@@ -26,5 +26,5 @@ hexo_command = 'hexo new ' + template_name + ' -post=' + template_name + '/"' + 
 print("execute ==> " + hexo_command)
 
 # 执行创建命令
-execute_command = 'cd ' + blogs_path + ' && ' + hexo_command
+execute_command = 'D: && cd ' + blogs_path + ' && ' + hexo_command
 os.system(execute_command)
